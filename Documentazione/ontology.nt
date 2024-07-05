@@ -1,0 +1,1489 @@
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/cp/owl/list.owl> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://purl.org/dc/elements/1.1/creator> "Dario Franzese"@it .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://purl.org/dc/elements/1.1/date> "14-02-2024"@it .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://purl.org/dc/elements/1.1/description> "Ontologia riguardo il mondo dei Cinefumetti da un punto di vista sia Cinematografico che Fumettistico, evidenziando similitudini e adattamenti delle opere originali trasposte su pellicola."@it .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://purl.org/dc/elements/1.1/title> "Cinecomics' Ontology"@en .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://purl.org/dc/elements/1.1/title> "Ontologia sui cinefumetti"@it .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/vann:preferredNamespacePrefix> "Cinecomics" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/vann:preferredNamespacePrefix> "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics> <http://www.w3.org/2000/01/rdf-schema#label> "Cinecomics"@it .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/vann:preferredNamespacePrefix
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/vann:preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.ontologydesignpatterns.org/cp/owl/list.owl#previousItem
+<http://www.ontologydesignpatterns.org/cp/owl/list.owl#previousItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.ontologydesignpatterns.org/cp/owl/list.owl#previousItem> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#directlyPrecedes> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi> <http://www.w3.org/2000/01/rdf-schema#comment> "Un' ambientazione e' associata potenzialmente a una o piu' storie" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi> <http://www.w3.org/2000/01/rdf-schema#label> "ambientazione di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.w3.org/2000/01/rdf-schema#comment> "Personaggio che prende il ruolo di antagonista in una storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.w3.org/2000/01/rdf-schema#label> "antagonizza" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni personaggio appare in una storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> <http://www.w3.org/2000/01/rdf-schema#label> "appare in" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni storie contiene dei personaggi" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> <http://www.w3.org/2000/01/rdf-schema#label> "contienePersonaggio" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> <http://www.w3.org/2000/01/rdf-schema#comment> "Un creatore crea un' opera" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> <http://www.w3.org/2000/01/rdf-schema#label> "crea" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni opera e' creata da un creatore" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa> <http://www.w3.org/2000/01/rdf-schema#label> "creataDa" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni prodotto audiovisivo e' diretto da un regista" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.w3.org/2000/01/rdf-schema#label> "diretto da" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.w3.org/2000/01/rdf-schema#comment> "Un Regista dirige un prodotto audiovisivo" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.w3.org/2000/01/rdf-schema#label> "dirige" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.w3.org/2000/01/rdf-schema#comment> "Un disegnatore disegna un fumetto" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.w3.org/2000/01/rdf-schema#label> "disegna" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni fumetto e' disegnato da un disegnatore" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.w3.org/2000/01/rdf-schema#label> "disegnato da" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni personaggio e' interpretato da un attore" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> <http://www.w3.org/2000/01/rdf-schema#label> "interpretato da" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/bag.owl#itemOf> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.w3.org/2000/01/rdf-schema#comment> "film di una saga cinematografica" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.w3.org/2000/01/rdf-schema#label> "film di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/bag.owl#itemOf> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> <http://www.w3.org/2000/01/rdf-schema#comment> "fumetto di una collana" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> <http://www.w3.org/2000/01/rdf-schema#label> "fumetto di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.w3.org/2000/01/rdf-schema#comment> "un fumetto puo' raccontare una o piu' storie" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.w3.org/2000/01/rdf-schema#label> "fumetto racconta" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni storia e' ambientata in uno o piu' luoghi" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.w3.org/2000/01/rdf-schema#label> "ambientata a" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/bag.owl#hasItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni saga cinematografica ha almeno un film" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> <http://www.w3.org/2000/01/rdf-schema#label> "ha film" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/bag.owl#hasItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "collana ha almeno un fumetto" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.w3.org/2000/01/rdf-schema#label> "ha fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasFirstItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni universo seriale inizia con una specifica serie tv" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> <http://www.w3.org/2000/01/rdf-schema#label> "ha prima serieTV" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasFirstItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni saga cinematografica inizia con uno specifico film" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> <http://www.w3.org/2000/01/rdf-schema#label> "ha primo film" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasFirstItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni collana inizia con uno specifico fumetto" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.w3.org/2000/01/rdf-schema#label> "ha primo fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione> <http://www.w3.org/2000/01/rdf-schema#comment> "Una Saga Ha una produzione editoriale" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione> <http://www.w3.org/2000/01/rdf-schema#label> "ha produzione" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProtagonista
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProtagonista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProtagonista> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProtagonista> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProtagonista> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProtagonista> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/bag.owl#hasItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni universo seriale ha almeno una serie TV" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> <http://www.w3.org/2000/01/rdf-schema#label> "ha serieTV" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasLastItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni universo seriale termina con una specifica serie tv" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> <http://www.w3.org/2000/01/rdf-schema#label> "ha ultima serieTV" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasLastItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni saga cinematografica inizia con uno specifico film" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> <http://www.w3.org/2000/01/rdf-schema#label> "ha ultimo film" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasLastItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni collana termina con uno specifico fumetto" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> <http://www.w3.org/2000/01/rdf-schema#label> "ha ultimo fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni attore interpreta un personaggio" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.w3.org/2000/01/rdf-schema#label> "interpreta" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#comment> "film che precede direttamente un altro in una saga cinematografica" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#label> "precede direttamente film" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "fumetto che segue direttamente un altro in una collana" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#label> "precede direttamente fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#comment> "serieTV che precede direttamente un' altra in un Universo Seriale" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#label> "precede direttamente serieTV" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> <http://www.w3.org/2000/01/rdf-schema#comment> "film che precede un altro in una saga cinematografica" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> <http://www.w3.org/2000/01/rdf-schema#label> "precede film" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "fumetto che precede un altro in una collana" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> <http://www.w3.org/2000/01/rdf-schema#label> "precede fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> <http://www.w3.org/2000/01/rdf-schema#comment> "serie tv che precede un' altra in un universo seriale" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> <http://www.w3.org/2000/01/rdf-schema#label> "precede serieTV" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi> <http://www.w3.org/2000/01/rdf-schema#comment> "prima serieTV di un 'Universo Seriale'" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi> <http://www.w3.org/2000/01/rdf-schema#label> "prima serieTV di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI> <http://www.w3.org/2000/01/rdf-schema#comment> "primo film di una saga cinematografica" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI> <http://www.w3.org/2000/01/rdf-schema#label> "primo film di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi> <http://www.w3.org/2000/01/rdf-schema#comment> "primo fumetto di una collana" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi> <http://www.w3.org/2000/01/rdf-schema#label> "primo fumetto di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.w3.org/2000/01/rdf-schema#comment> "un prodotto audiovisivo racconta una o piu' storie" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.w3.org/2000/01/rdf-schema#label> "prodotto audiovisivo racconta" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.w3.org/2000/01/rdf-schema#comment> "Personaggio che prende il ruolo di protagonista in una storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.w3.org/2000/01/rdf-schema#label> "protagonizza" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni opera racconta una storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta> <http://www.w3.org/2000/01/rdf-schema#label> "racconta" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Ogni storia viene raccontata in un' opera" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn> <http://www.w3.org/2000/01/rdf-schema#label> "raccontata in" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "Una storia puo' essere raccontata in un fumetto" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> <http://www.w3.org/2000/01/rdf-schema#label> "raccontata in fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.w3.org/2000/01/rdf-schema#comment> "Una storia puo' essere messa in scena in un prodotto audiovisivo" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.w3.org/2000/01/rdf-schema#label> "raccontata in prodotto audiovisivo" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/recitaIn
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/recitaIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/recitaIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/recitaIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/recitaIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/recitaIn> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#comment> "film che segue direttamente un altro in una saga cinematografica" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.w3.org/2000/01/rdf-schema#label> "segue direttamente film" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "fumetto che segue direttamente un altro in una Collana" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> <http://www.w3.org/2000/01/rdf-schema#label> "segue direttamente fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#comment> "serieTV che segue direttamente un' altra in Universo Seriale" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> <http://www.w3.org/2000/01/rdf-schema#label> "segue direttamente serieTV" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> <http://www.w3.org/2000/01/rdf-schema#comment> "film che segue un altro in una saga cinematografica" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> <http://www.w3.org/2000/01/rdf-schema#label> "segue film" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "fumetto che segue un altro in una collana" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> <http://www.w3.org/2000/01/rdf-schema#label> "segue fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> <http://www.w3.org/2000/01/rdf-schema#comment> "serie tv che segue un' altra in un universo seriale" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> <http://www.w3.org/2000/01/rdf-schema#label> "segue serieTV" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.ontologydesignpatterns.org/cp/owl/bag.owl#itemOf> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> <http://www.w3.org/2000/01/rdf-schema#comment> "serieTV di un Universo Seriale" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> <http://www.w3.org/2000/01/rdf-schema#label> "serieTV di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring> <http://www.w3.org/2000/01/rdf-schema#comment> "Film \"con attore\" nel cast (in inglese, starring)" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring> <http://www.w3.org/2000/01/rdf-schema#label> "starring" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi> <http://www.w3.org/2000/01/rdf-schema#comment> "ultima 'Serie tv' di un 'Universo Seriale'" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi> <http://www.w3.org/2000/01/rdf-schema#label> "ultima serieTV di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi> <http://www.w3.org/2000/01/rdf-schema#comment> "ultimo film di una 'Saga Cinematografica'" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi> <http://www.w3.org/2000/01/rdf-schema#label> "ultimo film di" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi> <http://www.w3.org/2000/01/rdf-schema#comment> "ultimo fumetto di una collana" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi> <http://www.w3.org/2000/01/rdf-schema#label> "ultimo fumetto di" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni> <http://www.w3.org/2000/01/rdf-schema#comment> "Numero di stagioni di una serie tv" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni> <http://www.w3.org/2000/01/rdf-schema#label> "numero stagioni" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> <http://www.w3.org/2000/01/rdf-schema#comment> "Stato di terminazione di una serie" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> <http://www.w3.org/2000/01/rdf-schema#label> "terminata" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://comicmeta.org/cbo/Comic
+<http://comicmeta.org/cbo/Comic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://comicmeta.org/cbo/Comic> <http://www.w3.org/2002/07/owl#equivalentClass> <http://dbpedia.org/resource/Comics> .
+# 
+# http://comicmeta.org/cbo/Story
+<http://comicmeta.org/cbo/Story> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://comicmeta.org/cbo/Story> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://comicmeta.org/cbo/Story> <http://www.w3.org/2000/01/rdf-schema#label> "comicmeta:Story" .
+# 
+# http://dbpedia.org/resource/Comics
+<http://dbpedia.org/resource/Comics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/Comics> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+# 
+# http://dbpedia.org/resource/Film
+<http://dbpedia.org/resource/Film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/Film> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+# 
+# http://dbpedia.org/resource/Television_show
+<http://dbpedia.org/resource/Television_show> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/resource/Television_show> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+# 
+# http://purl.org/spar/frbr/core#Work
+<http://purl.org/spar/frbr/core#Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/frbr/core#Work> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> .
+<http://purl.org/spar/frbr/core#Work> <http://www.w3.org/2000/01/rdf-schema#label> "frbr:Work" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> <http://www.w3.org/2000/01/rdf-schema#comment> "Ambientazione dove si sviluppa parte o tutta la storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> <http://www.w3.org/2000/01/rdf-schema#label> "Ambientazione" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista> <http://www.w3.org/2000/01/rdf-schema#comment> "Antagonista della storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista> <http://www.w3.org/2000/01/rdf-schema#label> "Antagonista" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore di un prodotto audiovisivo" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> <http://www.w3.org/2000/01/rdf-schema#label> "Attore" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Antagonista
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Antagonista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Antagonista> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Antagonista> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Antagonista> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore che interpreta l' antagonista in un prodotto audiovisivo" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Antagonista> <http://www.w3.org/2000/01/rdf-schema#label> "Attore Antagonista" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Protagonista
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Protagonista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Protagonista> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Protagonista> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Protagonista> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore che interpreta il protagonista in un prodotto audiovisivo" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Protagonista> <http://www.w3.org/2000/01/rdf-schema#label> "Attore protagonista" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta> <http://www.w3.org/2000/01/rdf-schema#comment> "Citta dove e' ambientato il racconto" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta> <http://www.w3.org/2000/01/rdf-schema#label> "Citta'" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+_:genid10 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> <http://www.w3.org/2000/01/rdf-schema#comment> "Collana di piu' fumetti" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> <http://www.w3.org/2000/01/rdf-schema#label> "Collana" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> <http://www.w3.org/2000/01/rdf-schema#comment> "Creatore di un prodotto artistico di qualsiasi tipo" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> <http://www.w3.org/2000/01/rdf-schema#label> "Creatore" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> <http://www.w3.org/2000/01/rdf-schema#comment> "Disegnatore di un fumetto" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> <http://www.w3.org/2000/01/rdf-schema#label> "Disegnatore" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> <http://www.w3.org/2000/01/rdf-schema#comment> "Film rappresentante una storia con personaggi Marvel" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> <http://www.w3.org/2000/01/rdf-schema#label> "Film" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> <http://www.w3.org/2000/01/rdf-schema#comment> "Fumetto venduto dalla Marvel" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto> <http://www.w3.org/2000/01/rdf-schema#label> "Fumetto" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Miniserie
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Miniserie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Miniserie> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid15 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#hasValue> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Miniserie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Miniserie> <http://www.w3.org/2000/01/rdf-schema#comment> "Serie con un sola stagione autoconclusiva" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Miniserie> <http://www.w3.org/2000/01/rdf-schema#label> "Miniserie" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione> <http://www.w3.org/2000/01/rdf-schema#comment> "Nazione dove e' ambientato il racconto" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione> <http://www.w3.org/2000/01/rdf-schema#label> "Nazione" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/list.owl#ListItem> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> <http://www.w3.org/2000/01/rdf-schema#comment> "Un prodotto in cui viene raccontata una storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> <http://www.w3.org/2000/01/rdf-schema#label> "Opera" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> <http://www.w3.org/2000/01/rdf-schema#comment> "Personaggio della storia raccontata" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> <http://www.w3.org/2000/01/rdf-schema#label> "Personaggio" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta> <http://www.w3.org/2000/01/rdf-schema#comment> "Pianeta di finzione dove e' ambientata una storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta> <http://www.w3.org/2000/01/rdf-schema#label> "Pianeta" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> <http://www.w3.org/2000/01/rdf-schema#comment> "Prodotto sottoforma di video" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> <http://www.w3.org/2000/01/rdf-schema#label> "Prodotto audiovisivo" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#oneOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneEuropea> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAsiatica> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAmericana> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione> <http://www.w3.org/2000/01/rdf-schema#comment> "Tipo di produzione dell' Opera" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione> <http://www.w3.org/2000/01/rdf-schema#label> "Produzione" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista> <http://www.w3.org/2000/01/rdf-schema#comment> "Protagonista della storia raccontata" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista> <http://www.w3.org/2000/01/rdf-schema#label> "Protagonista" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista> <http://www.w3.org/2000/01/rdf-schema#comment> "Scrittore del copione e della trama del Film/Serie Tv" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista> <http://www.w3.org/2000/01/rdf-schema#label> "Regista" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno> <http://www.w3.org/2000/01/rdf-schema#comment> "Regno di finzione dove e' ambientata una storia" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno> <http://www.w3.org/2000/01/rdf-schema#label> "Regno Fantastico" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/list.owl#List> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+_:genid24 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> <http://www.w3.org/2000/01/rdf-schema#comment> "Collezione di piu' film con gli stessi protagonisti" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> <http://www.w3.org/2000/01/rdf-schema#label> "Saga Cinematografica" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> <http://www.w3.org/2000/01/rdf-schema#comment> "Prodotto televisivo con personaggi Marvel suddiviso in episodi" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> <http://www.w3.org/2000/01/rdf-schema#label> "Serie tv" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> <http://www.w3.org/2000/01/rdf-schema#comment> "Una storia di supereroi" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> <http://www.w3.org/2000/01/rdf-schema#label> "Storia" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV> .
+_:genid25 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> <http://www.w3.org/2000/01/rdf-schema#comment> "Insieme di piu' serie TV ambientate nello stesso \"Universo\" che condividono avvenimenti e/o personaggi" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> <http://www.w3.org/2000/01/rdf-schema#label> "Universo Seriale" .
+# 
+# http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Abominio
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Abominio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Abominio> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Abominio> <http://www.w3.org/2000/01/rdf-schema#comment> "Mostro mutante dalle dimensioni sovraumane" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Abominio> <http://www.w3.org/2000/01/rdf-schema#label> "Abominio" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Afghanistan
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Afghanistan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Afghanistan> <http://www.w3.org/2000/01/rdf-schema#comment> "Stato mediorientale caratterizzato dall' ostilita' bellica" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Afghanistan> <http://www.w3.org/2000/01/rdf-schema#label> "Afghanistan" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard> <http://www.w3.org/2000/01/rdf-schema#comment> "Centro dei 9 Regni" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard> <http://www.w3.org/2000/01/rdf-schema#label> "Asgard" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers> <http://www.w3.org/2000/01/rdf-schema#label> "Primo film corale sui vendicatori" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers> <http://www.w3.org/2000/01/rdf-schema#label> "The Avengers" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled> <http://www.w3.org/2000/01/rdf-schema#comment> "Primo fumetto dedicato agli Avengers" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled> <http://www.w3.org/2000/01/rdf-schema#label> "Avengers Assembled n1" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled_Collana
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled_Collana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled_Collana> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled_Collana> <http://www.w3.org/2000/01/rdf-schema#comment> "Prima collana di fumetti dedicata ai vendicatori" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled_Collana> <http://www.w3.org/2000/01/rdf-schema#label> "Avengers Assembled [Collana]" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica> <http://www.w3.org/2000/01/rdf-schema#comment> "Supereoe della Marvel con poteri da supersoldato" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica> <http://www.w3.org/2000/01/rdf-schema#label> "Capitan America" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_Collana
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_Collana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_Collana> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_Collana> <http://www.w3.org/2000/01/rdf-schema#comment> "Prima collana di storie dedicata a Steve Rodgers" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_Collana> <http://www.w3.org/2000/01/rdf-schema#label> "Captain America [Collana]" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1> <http://www.w3.org/2000/01/rdf-schema#comment> "Primo numero della nuova storia su Capitan America pubblicato nel 1941" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1> <http://www.w3.org/2000/01/rdf-schema#label> "Captain America n1" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CharlieCox
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CharlieCox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CharlieCox> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CharlieCox> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore statunitense classe 1975" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CharlieCox> <http://www.w3.org/2000/01/rdf-schema#label> "Charlie Cox" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisEvans
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisEvans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisEvans> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisEvans> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore statunitense classe 1981" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisEvans> <http://www.w3.org/2000/01/rdf-schema#label> "Chris Evans" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisHemsworth
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisHemsworth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisHemsworth> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisHemsworth> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore statunitense classe 1980" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisHemsworth> <http://www.w3.org/2000/01/rdf-schema#label> "Chris Hemsworth" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil> <http://www.w3.org/2000/01/rdf-schema#comment> "Alter-ego di Matt Murdoock" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil> <http://www.w3.org/2000/01/rdf-schema#label> "Daredevil" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> <http://www.w3.org/2000/01/rdf-schema#comment> "Serie netflix dedicata al diavolo di Hell's Kitchen" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> <http://www.w3.org/2000/01/rdf-schema#label> "Daredevil [Serie TV]" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/DavidTennant
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/DavidTennant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/DavidTennant> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Killgrave> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/DavidTennant> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore scozzese classe 1971" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/DavidTennant> <http://www.w3.org/2000/01/rdf-schema#label> "David Tennant" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAmericana> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1> <http://www.w3.org/2000/01/rdf-schema#comment> "Insieme di film che compongono la prima fase del Marvel Cinematic Universe" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1> <http://www.w3.org/2000/01/rdf-schema#label> "MCU: Fase 1" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster> <http://www.w3.org/2000/01/rdf-schema#comment> "Fumetto di esordio del personaggio di Hulk scritto da Stan Lee e disegnato da Jack Kirby" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster> <http://www.w3.org/2000/01/rdf-schema#label> "Green Monster n1" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster_Collana
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster_Collana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster_Collana> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster_Collana> <http://www.w3.org/2000/01/rdf-schema#comment> "Collana che vede l' esordio di Hulk" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster_Collana> <http://www.w3.org/2000/01/rdf-schema#label> "Green Monster [Collana]" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk> <http://www.w3.org/2000/01/rdf-schema#comment> "Personaggio alter ego di Bruce Banner" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk> <http://www.w3.org/2000/01/rdf-schema#label> "Hulk" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnFavreu> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2> <http://www.w3.org/2000/01/rdf-schema#comment> "Secondo film dedicato allo sviluppo del personaggio di Tony Stark" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2> <http://www.w3.org/2000/01/rdf-schema#label> "The Iron Man 2" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer> <http://www.w3.org/2000/01/rdf-schema#comment> "Storia dello storico scontro tra Iron Man e Justin Hammer" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man VS Justin Hammer" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_Collana
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_Collana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_Collana> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_Collana> <http://www.w3.org/2000/01/rdf-schema#comment> "Prima collana dedicata unicamente ad Iron Man" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_Collana> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man [Collana]" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63> <http://www.w3.org/2000/01/rdf-schema#comment> "Numero 63 della prima serie di fumetti dedicati ad IronMan" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man n63" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man> <http://www.w3.org/2000/01/rdf-schema#comment> "Personaggio alter ego di Tony Stark" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man> <http://www.w3.org/2000/01/rdf-schema#label> "Iron Man" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby> <http://www.w3.org/2000/01/rdf-schema#comment> "Storico disegnatore della Marvel" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby> <http://www.w3.org/2000/01/rdf-schema#label> "Jack Kirby" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JeffBridges
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JeffBridges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JeffBridges> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ObediahStane> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JeffBridges> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore statunitense classe 1960" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JeffBridges> <http://www.w3.org/2000/01/rdf-schema#label> "Jeff Bridges" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones> <http://www.w3.org/2000/01/rdf-schema#comment> "Alter ego di Sara Strange" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones> <http://www.w3.org/2000/01/rdf-schema#label> "Jessica Jones" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Collana
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Collana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Collana> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Collana> <http://www.w3.org/2000/01/rdf-schema#comment> "Collana di fumetti dedicati a Jessica Jones" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Collana> <http://www.w3.org/2000/01/rdf-schema#label> "Jessica Jones [Collana]" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie> <http://www.w3.org/2000/01/rdf-schema#comment> "Seconda serie tv netflix dedicata agli eroi Marvel" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie> <http://www.w3.org/2000/01/rdf-schema#label> "Jessica Jones [Serie TV]" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1> <http://www.w3.org/2000/01/rdf-schema#comment> "Primo numero della collana di fumetti dedicati a Jessica Jones" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1> <http://www.w3.org/2000/01/rdf-schema#label> "Jessica Jones n1" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeJohnston
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeJohnston> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeJohnston> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeJohnston> <http://www.w3.org/2000/01/rdf-schema#comment> "Regista statunitense" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeJohnston> <http://www.w3.org/2000/01/rdf-schema#label> "Joe Johnston" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeRusso
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeRusso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeRusso> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeRusso> <http://www.w3.org/2000/01/rdf-schema#comment> "Storico regista statunitense dell' MCU" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeRusso> <http://www.w3.org/2000/01/rdf-schema#label> "Joe Russo" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnBuscema
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnBuscema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnBuscema> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnBuscema> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnBuscema> <http://www.w3.org/2000/01/rdf-schema#label> "John Buscema" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnBuscema> <http://www.w3.org/2000/01/rdf-schema#label> "Storico disegnatore marvel statunitense" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnFavreu
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnFavreu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnFavreu> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnFavreu> <http://www.w3.org/2000/01/rdf-schema#comment> "Regista Statunitense di origini Francesi" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnFavreu> <http://www.w3.org/2000/01/rdf-schema#label> "John Favreu" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinHammer
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinHammer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinHammer> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinHammer> <http://www.w3.org/2000/01/rdf-schema#comment> "Multimilionario malvagio che grazie alle sue tecnologie ambisce a conquistare il mondo" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinHammer> <http://www.w3.org/2000/01/rdf-schema#label> "Justin Hammer" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinRusso
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinRusso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinRusso> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinRusso> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinRusso> <http://www.w3.org/2000/01/rdf-schema#comment> "Regista marvel dedicato alle serie tv" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinRusso> <http://www.w3.org/2000/01/rdf-schema#label> "Justin Russo" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Killgrave
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Killgrave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Killgrave> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Killgrave> <http://www.w3.org/2000/01/rdf-schema#comment> "Conosciuto anche come l' uomo porporta, uomo dai poteri psichici" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Killgrave> <http://www.w3.org/2000/01/rdf-schema#label> "Killgrave" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Kingpin
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Kingpin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Kingpin> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Kingpin> <http://www.w3.org/2000/01/rdf-schema#comment> "Acerrimo nemico di daredevil" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Kingpin> <http://www.w3.org/2000/01/rdf-schema#label> "Kingpin" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/KirstenRitter
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/KirstenRitter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/KirstenRitter> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/KirstenRitter> <http://www.w3.org/2000/01/rdf-schema#comment> "Attrice statunitense" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/KirstenRitter> <http://www.w3.org/2000/01/rdf-schema#label> "Kirsten Ritter" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora> <http://www.w3.org/2000/01/rdf-schema#comment> "Storia dell' uomo porpora a Hell's Kitchen" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora> <http://www.w3.org/2000/01/rdf-schema#label> "L'uomo porpora" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TomHiddleston> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki> <http://www.w3.org/2000/01/rdf-schema#comment> "Figlio di odino fratello di Thor" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki> <http://www.w3.org/2000/01/rdf-schema#label> "Loki" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra> <http://www.w3.org/2000/01/rdf-schema#comment> "Capitale del Regno Unito" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra> <http://www.w3.org/2000/01/rdf-schema#label> "Londra" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LouisLeterrier
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LouisLeterrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LouisLeterrier> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LouisLeterrier> <http://www.w3.org/2000/01/rdf-schema#comment> "Regista francese" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LouisLeterrier> <http://www.w3.org/2000/01/rdf-schema#label> "Louis Leterrier" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MarkRuffalo
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MarkRuffalo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MarkRuffalo> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MarkRuffalo> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore statunitense classe 1967" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MarkRuffalo> <http://www.w3.org/2000/01/rdf-schema#label> "Mark Ruffalo" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MatthewVaughn
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MatthewVaughn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MatthewVaughn> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MatthewVaughn> <http://www.w3.org/2000/01/rdf-schema#comment> "Regista canadese" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MatthewVaughn> <http://www.w3.org/2000/01/rdf-schema#label> "Matthew Vaughn" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork> <http://www.w3.org/2000/01/rdf-schema#comment> "Capitale dell' omonimo stato" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork> <http://www.w3.org/2000/01/rdf-schema#label> "New York" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ObediahStane
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ObediahStane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ObediahStane> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ObediahStane> <http://www.w3.org/2000/01/rdf-schema#label> "Obediah Stane" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ObediahStane> <http://www.w3.org/2000/01/rdf-schema#label> "Socio traditore di Tony Stark" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Terra> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> <http://www.w3.org/2000/01/rdf-schema#comment> "Storia sulle origini del gruppo di supereroi." .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> <http://www.w3.org/2000/01/rdf-schema#label> "Origini degli Avengers" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil> <http://www.w3.org/2000/01/rdf-schema#comment> "Storia delle origini del diavolo rosso" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil> <http://www.w3.org/2000/01/rdf-schema#label> "Origini di Daredevil" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk> <http://www.w3.org/2000/01/rdf-schema#comment> "Storia delle origini del mostro verde" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk> <http://www.w3.org/2000/01/rdf-schema#label> "Origini di Hulk" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> <http://www.w3.org/2000/01/rdf-schema#comment> "Storia delle origini del principe di Asgard" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> <http://www.w3.org/2000/01/rdf-schema#label> "Origini di Thor" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Afghanistan> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man> <http://www.w3.org/2000/01/rdf-schema#comment> "Storia delle origini dell' alter-ego di Tony Stark" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man> <http://www.w3.org/2000/01/rdf-schema#label> "Origini di Iron Man" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica> <http://www.w3.org/2000/01/rdf-schema#comment> "Storia delle origini della nascita del Supersoldato americao" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica> <http://www.w3.org/2000/01/rdf-schema#label> "Origni di Capitan America" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAmericana
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAmericana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAsiatica
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAsiatica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneEuropea
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneEuropea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneEuropea> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RobertDowneyJr
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RobertDowneyJr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RobertDowneyJr> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RobertDowneyJr> <http://www.w3.org/2000/01/rdf-schema#label> "Attore Newyorkese classe 1961" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RobertDowneyJr> <http://www.w3.org/2000/01/rdf-schema#label> "Robert Downey Jr" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RossMarquand
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RossMarquand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RossMarquand> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TeschioRosso> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RossMarquand> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore francese" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RossMarquand> <http://www.w3.org/2000/01/rdf-schema#label> "Ross Marquand" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Russia
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Russia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Russia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Russia> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica> .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SamRockwell
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SamRockwell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SamRockwell> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinHammer> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SamRockwell> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore Canadese classe 1969" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SamRockwell> <http://www.w3.org/2000/01/rdf-schema#label> "Sam Rockwell" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ScarlettJohansson
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ScarlettJohansson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ScarlettJohansson> <http://www.w3.org/2000/01/rdf-schema#comment> "Attrice statunitense classe 1985" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ScarlettJohansson> <http://www.w3.org/2000/01/rdf-schema#label> "Scarlett Johansson" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix> <http://www.w3.org/2000/01/rdf-schema#comment> "Universo seriale Netflix" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix> <http://www.w3.org/2000/01/rdf-schema#label> "Serie Netflix" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee> <http://www.w3.org/2000/01/rdf-schema#comment> "Fodnatore e disegnatore della Marvel" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee> <http://www.w3.org/2000/01/rdf-schema#label> "Stan Lee" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko> <http://www.w3.org/2000/01/rdf-schema#comment> "Storico disegnatore Marvel" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko> <http://www.w3.org/2000/01/rdf-schema#label> "Steve Ditko" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence> <http://www.w3.org/2000/01/rdf-schema#comment> "Storica Collana di fumetti Marvel nata nel 1945" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence> <http://www.w3.org/2000/01/rdf-schema#label> "Tales Of Suspence" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69> <http://www.w3.org/2000/01/rdf-schema#label> "Fumetto d' esordio del personaggio di Matt Murdock" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69> <http://www.w3.org/2000/01/rdf-schema#label> "Tales Of Suspence n69" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39> <http://www.w3.org/2000/01/rdf-schema#comment> "Fumetto del 1963 scritto da Stan Lee dove compare per la prima volta il personaggio di Iron Man" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39> <http://www.w3.org/2000/01/rdf-schema#label> "Tales Of Suspence n39" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Terra
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Terra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Terra> <http://www.w3.org/2000/01/rdf-schema#comment> "Pianeta terra, conosciuto anche come Terra 616" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Terra> <http://www.w3.org/2000/01/rdf-schema#label> "Terra" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TeschioRosso
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TeschioRosso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TeschioRosso> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TeschioRosso> <http://www.w3.org/2000/01/rdf-schema#comment> "Alterego del generale nazista Johann Smidth" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TeschioRosso> <http://www.w3.org/2000/01/rdf-schema#label> "Teschio Rosso" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_Collana
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_Collana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_Collana> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_Collana> <http://www.w3.org/2000/01/rdf-schema#comment> "Collana di fumetti dedicati al Dio del tuono" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_Collana> <http://www.w3.org/2000/01/rdf-schema#label> "The Almighty Thor [Collana]" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1> <http://www.w3.org/2000/01/rdf-schema#comment> "Primo numero della storica collana di storie dedicate a Thor" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1> <http://www.w3.org/2000/01/rdf-schema#label> "The Almighty Thor n1" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk> <http://www.w3.org/2000/01/rdf-schema#comment> "Primo film del MCU dedicato alle origini di Bruce Banner" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk> <http://www.w3.org/2000/01/rdf-schema#label> "The Incredible Hulk" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan> <http://www.w3.org/2000/01/rdf-schema#comment> "Primo film del MCU con protagonista l' uomo di ferro" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan> <http://www.w3.org/2000/01/rdf-schema#label> "The Iron Man" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor> <http://www.w3.org/2000/01/rdf-schema#comment> "Personaggio figlio di Odino" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor> <http://www.w3.org/2000/01/rdf-schema#label> "Thor" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1> <http://www.w3.org/2000/01/rdf-schema#comment> "Primo film dedicato al figlio di Odino" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1> <http://www.w3.org/2000/01/rdf-schema#label> "Thor 1" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TimRoth
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TimRoth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TimRoth> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Abominio> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TimRoth> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore statunitense classe 1959" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TimRoth> <http://www.w3.org/2000/01/rdf-schema#label> "Tim Roth" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TomHiddleston
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TomHiddleston> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TomHiddleston> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore inglese classe 1975" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TomHiddleston> <http://www.w3.org/2000/01/rdf-schema#label> "Tom Hiddlestone" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VedovaNera
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VedovaNera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VedovaNera> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ScarlettJohansson> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VedovaNera> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VedovaNera> <http://www.w3.org/2000/01/rdf-schema#comment> "Personaggio alterego di Natasha Romanov" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VedovaNera> <http://www.w3.org/2000/01/rdf-schema#label> "Vedova Nera" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VincentDOnofrio
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VincentDOnofrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VincentDOnofrio> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Kingpin> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VincentDOnofrio> <http://www.w3.org/2000/01/rdf-schema#comment> "Attore statunitense classe 1969" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VincentDOnofrio> <http://www.w3.org/2000/01/rdf-schema#label> "Vincent D Onofrio" .
+# 
+# http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1> .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger> <http://www.w3.org/2000/01/rdf-schema#comment> "Primo film del MCU dedicato a Steve Rodgers" .
+<http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger> <http://www.w3.org/2000/01/rdf-schema#label> "Captain America: The First Avenger" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid26 <http://www.w3.org/2002/07/owl#members> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Person> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#Collection> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/cp/owl/bag.owl#Item> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid34 <http://www.w3.org/2002/07/owl#members> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid39 <http://www.w3.org/2002/07/owl#members> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid43 <http://www.w3.org/2002/07/owl#members> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid47 <http://www.w3.org/2002/07/owl#members> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid51 <http://www.w3.org/2002/07/owl#members> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid55 <http://www.w3.org/2002/07/owl#members> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid59 <http://www.w3.org/2002/07/owl#members> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid63 <http://www.w3.org/2002/07/owl#members> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid67 <http://www.w3.org/2002/07/owl#members> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid71 <http://www.w3.org/2002/07/owl#members> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

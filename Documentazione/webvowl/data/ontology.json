@@ -1,0 +1,2861 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "it", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl", "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl", "http://comicmeta.org/cbo", "http://www.w3.org/2000/01/rdf-schema", "http://dbpedia.org/resource", "http://purl.org/spar/frbr/core", "http://www.ontologydesignpatterns.org/cp/owl/list.owl", "http://www.ontologydesignpatterns.org/cp/owl/bag.owl", "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1" ],
+    "title" : {
+      "en" : "Cinecomics' Ontology",
+      "it" : "Ontologia sui cinefumetti"
+    },
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "author" : [ "Dario Franzese" ],
+    "description" : {
+      "it" : "Ontologia riguardo il mondo dei Cinefumetti da un punto di vista sia Cinematografico che Fumettistico, evidenziando similitudini e adattamenti delle opere originali trasposte su pellicola."
+    },
+    "labels" : {
+      "it" : "Cinecomics"
+    },
+    "other" : {
+      "date" : [ {
+        "identifier" : "date",
+        "language" : "it",
+        "value" : "14-02-2024",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "it",
+        "value" : "Dario Franzese",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+        "type" : "label"
+      }, {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "Cinecomics",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Cinecomics' Ontology",
+        "type" : "label"
+      }, {
+        "identifier" : "title",
+        "language" : "it",
+        "value" : "Ontologia sui cinefumetti",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "108",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:complementOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "157",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "116",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:equivalentClass"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Disegnatore",
+      "undefined" : "Disegnatore"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Storico disegnatore Marvel"
+      },
+      "labels" : {
+        "IRI-based" : "SteveDitko",
+        "undefined" : "Steve Ditko"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Fodnatore e disegnatore della Marvel"
+      },
+      "labels" : {
+        "IRI-based" : "StanLee",
+        "undefined" : "Stan Lee"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Disegnatore di un fumetto"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nazione",
+      "undefined" : "Nazione"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Russia",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "labels" : {
+        "IRI-based" : "Russia"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Nazione dove e' ambientato il racconto"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Saga_Cinematografica",
+      "undefined" : "Saga Cinematografica"
+    },
+    "comment" : {
+      "undefined" : "Collezione di piu' film con gli stessi protagonisti"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Universo_Seriale",
+      "undefined" : "Universo Seriale"
+    },
+    "comment" : {
+      "undefined" : "Insieme di piu' serie TV ambientate nello stesso \"Universo\" che condividono avvenimenti e/o personaggi"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Personaggio",
+      "undefined" : "Personaggio"
+    },
+    "subClasses" : [ "47", "48" ],
+    "comment" : {
+      "undefined" : "Personaggio della storia raccontata"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attore",
+      "undefined" : "Attore"
+    },
+    "subClasses" : [ "52", "50" ],
+    "comment" : {
+      "undefined" : "Attore di un prodotto audiovisivo"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Creatore",
+      "undefined" : "Creatore"
+    },
+    "subClasses" : [ "9", "53" ],
+    "comment" : {
+      "undefined" : "Creatore di un prodotto artistico di qualsiasi tipo"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Regno",
+      "undefined" : "Regno Fantastico"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Centro dei 9 Regni"
+      },
+      "labels" : {
+        "IRI-based" : "Asgard",
+        "undefined" : "Asgard"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Regno di finzione dove e' ambientata una storia"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Antagonista",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attore_Antagonista",
+      "undefined" : "Attore Antagonista"
+    },
+    "comment" : {
+      "undefined" : "Attore che interpreta l' antagonista in un prodotto audiovisivo"
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film",
+    "equivalent" : [ "59" ],
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Film",
+      "undefined" : "Film"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Primo film del MCU dedicato a Steve Rodgers"
+      },
+      "labels" : {
+        "IRI-based" : "CaptainAmerica:TheFirstAvenger",
+        "undefined" : "Captain America: The First Avenger"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Primo film dedicato al figlio di Odino"
+      },
+      "labels" : {
+        "IRI-based" : "Thor1",
+        "undefined" : "Thor 1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Primo film del MCU con protagonista l' uomo di ferro"
+      },
+      "labels" : {
+        "IRI-based" : "TheIronMan",
+        "undefined" : "The Iron Man"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Secondo film dedicato allo sviluppo del personaggio di Tony Stark"
+      },
+      "labels" : {
+        "IRI-based" : "IronMan2",
+        "undefined" : "The Iron Man 2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "labels" : {
+        "IRI-based" : "Avengers",
+        "undefined" : "Primo film corale sui vendicatori"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Film rappresentante una storia con personaggi Marvel"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "55",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Produzione",
+      "undefined" : "Produzione"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAmericana",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "labels" : {
+        "IRI-based" : "ProduzioneAmericana"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAsiatica",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "labels" : {
+        "IRI-based" : "ProduzioneAsiatica"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneEuropea",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "labels" : {
+        "IRI-based" : "ProduzioneEuropea"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Tipo di produzione dell' Opera"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "43", "10" ],
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Regista",
+      "undefined" : "Regista"
+    },
+    "comment" : {
+      "undefined" : "Scrittore del copione e della trama del Film/Serie Tv"
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Protagonista",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attore_Protagonista",
+      "undefined" : "Attore protagonista"
+    },
+    "comment" : {
+      "undefined" : "Attore che interpreta il protagonista in un prodotto audiovisivo"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://dbpedia.org/resource/Film",
+    "equivalent" : [ "55" ],
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Film"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://purl.org/spar/frbr/core#Work",
+    "equivalent" : [ "91" ],
+    "baseIri" : "http://purl.org/spar/frbr/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Work",
+      "undefined" : "frbr:Work"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#Collection",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Collection",
+      "en" : "Collection"
+    },
+    "subClasses" : [ "27" ],
+    "comment" : {
+      "undefined" : "Any container for entities that share one or more common properties. E.g. \"stone objects\", \"the nurses\", \"the Louvre Aegyptian collection\". A collection is not a logical class: a collection is a first-order entity, while a class is a second-order one."
+    },
+    "attributes" : [ "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pianeta",
+      "undefined" : "Pianeta"
+    },
+    "comment" : {
+      "undefined" : "Pianeta di finzione dove e' ambientata una storia"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "15",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#ListItem",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ListItem",
+      "undefined" : "list item"
+    },
+    "subClasses" : [ "91" ],
+    "comment" : {
+      "undefined" : "ListItem - Element belonging to a list"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia",
+    "equivalent" : [ "116" ],
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Storia",
+      "undefined" : "Storia"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Storia sulle origini del gruppo di supereroi."
+      },
+      "labels" : {
+        "IRI-based" : "OriginiDegliAvengers",
+        "undefined" : "Origini degli Avengers"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Una storia di supereroi"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Collana_Fumettistica",
+      "undefined" : "Collana"
+    },
+    "comment" : {
+      "undefined" : "Collana di piu' fumetti"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "121",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Citta",
+      "undefined" : "Citta'"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra",
+      "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+      "comment" : {
+        "undefined" : "Capitale del Regno Unito"
+      },
+      "labels" : {
+        "IRI-based" : "Londra",
+        "undefined" : "Londra"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Citta dove e' ambientato il racconto"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ambientazione",
+      "undefined" : "Ambientazione"
+    },
+    "subClasses" : [ "17", "38", "24", "23" ],
+    "comment" : {
+      "undefined" : "Ambientazione dove si sviluppa parte o tutta la storia"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18"
+  }, {
+    "instances" : 0,
+    "attributes" : [ "complement", "anonymous" ],
+    "id" : "119",
+    "complement" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV",
+    "equivalent" : [ "129" ],
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Serie_TV",
+      "undefined" : "Serie tv"
+    },
+    "subClasses" : [ "128" ],
+    "comment" : {
+      "undefined" : "Prodotto televisivo con personaggi Marvel suddiviso in episodi"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "61",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#Bag",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bag",
+      "undefined" : "(collections) Bag"
+    },
+    "subClasses" : [ "69" ],
+    "comment" : {
+      "undefined" : "Bag - Collection that can have a number of copies of each object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fumetto",
+      "undefined" : "Fumetto"
+    },
+    "comment" : {
+      "undefined" : "Fumetto venduto dalla Marvel"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "12",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#List",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "List",
+      "undefined" : "list"
+    },
+    "subClasses" : [ "21" ],
+    "comment" : {
+      "undefined" : "List - An ordered array of items, that can be present in multiple copies"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Protagonista",
+      "undefined" : "Protagonista"
+    },
+    "comment" : {
+      "undefined" : "Protagonista della storia raccontata"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Prodotto_Audiovisivo",
+      "undefined" : "Prodotto audiovisivo"
+    },
+    "subClasses" : [ "61", "55" ],
+    "comment" : {
+      "undefined" : "Prodotto sottoforma di video"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Miniserie",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Miniserie",
+      "undefined" : "Miniserie"
+    },
+    "comment" : {
+      "undefined" : "Serie con un sola stagione autoconclusiva"
+    },
+    "attributes" : [ "external" ],
+    "id" : "128",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://dbpedia.org/resource/Comics",
+    "equivalent" : [ "157", "12" ],
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Comics"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://comicmeta.org/cbo/Comic",
+    "baseIri" : "http://comicmeta.org/cbo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Comic"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://comicmeta.org/cbo/Story",
+    "equivalent" : [ "5" ],
+    "baseIri" : "http://comicmeta.org/cbo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Story",
+      "undefined" : "comicmeta:Story"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Saga"
+    },
+    "subClasses" : [ "2", "1", "46" ],
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera",
+    "equivalent" : [ "108" ],
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Opera",
+      "undefined" : "Opera"
+    },
+    "subClasses" : [ "58", "12" ],
+    "comment" : {
+      "undefined" : "Un prodotto in cui viene raccontata una storia"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "91",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Antagonista",
+      "undefined" : "Antagonista"
+    },
+    "comment" : {
+      "undefined" : "Antagonista della storia"
+    },
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#Item",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Item",
+      "undefined" : "item"
+    },
+    "subClasses" : [ "70" ],
+    "comment" : {
+      "undefined" : "Item - Element belonging to a Bag"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://dbpedia.org/resource/Television_show",
+    "equivalent" : [ "61" ],
+    "baseIri" : "http://dbpedia.org/resource",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Television_show"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "129"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "25",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "39",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "41",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "42",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "51",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "80",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "81",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "82",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "83",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "84",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "88",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "132",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "133",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "134",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "136",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "137",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "172",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "173",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "174",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "175",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "176",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "178",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "181",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn",
+    "inverse" : "6",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "appareIn",
+      "undefined" : "appare in"
+    },
+    "domain" : "4",
+    "subproperty" : [ "7", "8" ],
+    "comment" : {
+      "undefined" : "Ogni personaggio appare in una storia"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "segueDirettamenteFumetto",
+      "undefined" : "segue direttamente fumetto"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "fumetto che segue direttamente un altro in una Collana"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "ultimoFumettoDi",
+      "undefined" : "ultimo fumetto di"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "ultimo fumetto di una collana"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "produce"
+    },
+    "domain" : "20",
+    "attributes" : [ "external", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "24",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#hasItem",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasItem",
+      "undefined" : "has item"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "27",
+    "subproperty" : [ "30", "31", "32", "33", "34" ],
+    "comment" : {
+      "undefined" : "has item - The link to every item of the Bag"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi",
+    "inverse" : "33",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "fumettoDi",
+      "undefined" : "fumetto di"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "12",
+    "subproperty" : [ "14", "36" ],
+    "comment" : {
+      "undefined" : "fumetto di una collana"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "23",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "17",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "23",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "24",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "interpreta",
+      "undefined" : "interpreta"
+    },
+    "domain" : "43",
+    "comment" : {
+      "undefined" : "Ogni attore interpreta un personaggio"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "45",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "interpreta",
+      "undefined" : "interpreta"
+    },
+    "domain" : "50",
+    "comment" : {
+      "undefined" : "Ogni attore interpreta un personaggio"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "interpreta",
+      "undefined" : "interpreta"
+    },
+    "domain" : "52",
+    "comment" : {
+      "undefined" : "Ogni attore interpreta un personaggio"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "segueFilm",
+      "undefined" : "segue film"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "55",
+    "subproperty" : [ "57" ],
+    "comment" : {
+      "undefined" : "film che segue un altro in una saga cinematografica"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "segueSerieTV",
+      "undefined" : "segue serieTV"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "61",
+    "subproperty" : [ "62" ],
+    "comment" : {
+      "undefined" : "serie tv che segue un' altra in un universo seriale"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto",
+    "inverse" : "13",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "precedeFumetto",
+      "undefined" : "precede fumetto"
+    },
+    "superproperty" : [ "64" ],
+    "domain" : "12",
+    "subproperty" : [ "65" ],
+    "comment" : {
+      "undefined" : "fumetto che precede un altro in una collana"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza",
+    "inverse" : "66",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "antagonizza",
+      "undefined" : "antagonizza"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "Personaggio che prende il ruolo di antagonista in una storia"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm",
+    "inverse" : "57",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "precedeDirettamenteFilm",
+      "undefined" : "precede direttamente film"
+    },
+    "superproperty" : [ "68" ],
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "film che precede direttamente un altro in una saga cinematografica"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasLastItem",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "hasLastItem",
+      "undefined" : "has last item"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "69",
+    "subproperty" : [ "71", "72", "73" ],
+    "comment" : {
+      "undefined" : "last item - The link to the last item of the list"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "ultimaSerieTVDi",
+      "undefined" : "ultima serieTV di"
+    },
+    "superproperty" : [ "75" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "ultima 'Serie tv' di un 'Universo Seriale'"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "5",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "ultimoFilmDi",
+      "undefined" : "ultimo film di"
+    },
+    "superproperty" : [ "78" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "ultimo film di una 'Saga Cinematografica'"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "45",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "45",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "45",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "5",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "20",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV",
+    "inverse" : "74",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "haUltimaSerieTV",
+      "undefined" : "ha ultima serieTV"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "61",
+    "comment" : {
+      "undefined" : "Ogni universo seriale termina con una specifica serie tv"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "45",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie",
+    "inverse" : "75",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "haSerie",
+      "undefined" : "ha serieTV"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "46",
+    "comment" : {
+      "undefined" : "Ogni universo seriale ha almeno una serie TV"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "20",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  }, {
+    "range" : "4",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "range" : "10",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea",
+    "inverse" : "92",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "crea",
+      "undefined" : "crea"
+    },
+    "domain" : "10",
+    "subproperty" : [ "93", "94" ],
+    "comment" : {
+      "undefined" : "Un creatore crea un' opera"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "raccontataIn",
+      "undefined" : "raccontata in"
+    },
+    "domain" : "5",
+    "subproperty" : [ "96", "97" ],
+    "comment" : {
+      "undefined" : "Ogni storia viene raccontata in un' opera"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "95"
+  }, {
+    "range" : "45",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "45",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "raccontata_in_prodotto_audiovisivo",
+      "undefined" : "raccontata in prodotto audiovisivo"
+    },
+    "superproperty" : [ "95" ],
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Una storia puo' essere messa in scena in un prodotto audiovisivo"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#directlyFollows",
+    "inverse" : "101",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "directlyFollows",
+      "en" : "directly follows",
+      "it" : "segue direttamente"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "15",
+    "subproperty" : [ "102" ],
+    "comment" : {
+      "undefined" : "The intransitive follows relation. For example, Wednesday directly precedes Thursday. Directness of precedence depends on the designer conceptualization."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "follows",
+      "en" : "follows",
+      "it" : "segue"
+    },
+    "domain" : "15",
+    "subproperty" : [ "54", "13", "100", "60" ],
+    "comment" : {
+      "undefined" : "A relation between entities, expressing a 'sequence' schema. \nE.g. 'year 2000 follows 1999', 'preparing coffee' follows 'deciding what coffee to use', 'II World War follows I World War', etc. \nIt can be used between tasks, processes or time intervals, and subproperties would fit best in order to distinguish the different uses."
+    },
+    "attributes" : [ "transitive", "external", "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm",
+    "inverse" : "104",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "haPrimoFilm",
+      "undefined" : "ha primo film"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Ogni saga cinematografica inizia con uno specifico film"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "raccontata_in_fumetto",
+      "undefined" : "raccontata in fumetto"
+    },
+    "superproperty" : [ "95" ],
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Una storia puo' essere raccontata in un fumetto"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV",
+    "inverse" : "60",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "precedeSerieTV",
+      "undefined" : "precede serieTV"
+    },
+    "superproperty" : [ "64" ],
+    "domain" : "61",
+    "subproperty" : [ "106" ],
+    "comment" : {
+      "undefined" : "serie tv che precede un' altra in un universo seriale"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProtagonista",
+    "inverse" : "8",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "haProtagonista"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "5",
+    "attributes" : [ "external", "object" ],
+    "id" : "107"
+  }, {
+    "range" : "43",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "4",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "43",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#itemOf",
+    "inverse" : "26",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "itemOf",
+      "undefined" : "item of"
+    },
+    "superproperty" : [ "113" ],
+    "domain" : "28",
+    "subproperty" : [ "114", "16", "115", "75", "78" ],
+    "comment" : {
+      "undefined" : "item of - The link from an item to the Bag where it is contained"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#itemContent",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "itemContent",
+      "undefined" : "item content"
+    },
+    "cardinality" : "1",
+    "domain" : "28",
+    "comment" : {
+      "undefined" : "itemContent - The link to the actual resource to which the item refers."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "118"
+  }, {
+    "range" : "4",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "numeroStagioni",
+      "undefined" : "numero stagioni"
+    },
+    "domain" : "61",
+    "comment" : {
+      "undefined" : "Numero di stagioni di una serie tv"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "protagonizza",
+      "undefined" : "protagonizza"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "Personaggio che prende il ruolo di protagonista in una storia"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#lastItemOf",
+    "inverse" : "31",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "lastItemOf",
+      "undefined" : "last item of"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "70",
+    "attributes" : [ "external", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#previousItem",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "previousItem",
+      "undefined" : "previous item"
+    },
+    "superproperty" : [ "101" ],
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "previous item - The link to the previous item in a list (ordered collection)"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie",
+    "inverse" : "127",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "haPrimaSerie",
+      "undefined" : "ha prima serieTV"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "46",
+    "comment" : {
+      "undefined" : "Ogni universo seriale inizia con una specifica serie tv"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "58",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "haFumetto",
+      "undefined" : "ha fumetto"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "collana ha almeno un fumetto"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "61",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea",
+    "inverse" : "92",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "crea",
+      "undefined" : "crea"
+    },
+    "domain" : "53",
+    "subproperty" : [ "93", "94" ],
+    "comment" : {
+      "undefined" : "Un creatore crea un' opera"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn",
+    "inverse" : "6",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "appareIn",
+      "undefined" : "appare in"
+    },
+    "domain" : "4",
+    "subproperty" : [ "7", "8" ],
+    "comment" : {
+      "undefined" : "Ogni personaggio appare in una storia"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "46",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto",
+    "inverse" : "14",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "haUltimoFumetto",
+      "undefined" : "ha ultimo fumetto"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Ogni collana termina con uno specifico fumetto"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "73"
+  }, {
+    "range" : "46",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea",
+    "inverse" : "92",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "crea",
+      "undefined" : "crea"
+    },
+    "domain" : "9",
+    "subproperty" : [ "93", "94" ],
+    "comment" : {
+      "undefined" : "Un creatore crea un' opera"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea",
+    "inverse" : "92",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "crea",
+      "undefined" : "crea"
+    },
+    "domain" : "10",
+    "subproperty" : [ "93", "94" ],
+    "comment" : {
+      "undefined" : "Un creatore crea un' opera"
+    },
+    "attributes" : [ "someValues", "external", "object" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "segueDirettamenteFilm",
+      "undefined" : "segue direttamente film"
+    },
+    "superproperty" : [ "54" ],
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "film che segue direttamente un altro in una saga cinematografica"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "segueDirettamenteSerieTV",
+      "undefined" : "segue direttamente serieTV"
+    },
+    "superproperty" : [ "60" ],
+    "domain" : "61",
+    "comment" : {
+      "undefined" : "serieTV che segue direttamente un' altra in Universo Seriale"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto",
+    "inverse" : "36",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "haPrimoFumetto",
+      "undefined" : "ha primo fumetto"
+    },
+    "superproperty" : [ "32" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Ogni collana inizia con uno specifico fumetto"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "haAmbientazione",
+      "undefined" : "ambientata a"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "Ogni storia e' ambientata in uno o piu' luoghi"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi",
+    "inverse" : "139",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "ambientazioneDi",
+      "undefined" : "ambientazione di"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "Un' ambientazione e' associata potenzialmente a una o piu' storie"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "28",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "range" : "91",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "contiene",
+      "undefined" : "contienePersonaggio"
+    },
+    "domain" : "5",
+    "subproperty" : [ "107", "66" ],
+    "comment" : {
+      "undefined" : "Ogni storie contiene dei personaggi"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta",
+    "inverse" : "95",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "racconta",
+      "undefined" : "racconta"
+    },
+    "domain" : "91",
+    "subproperty" : [ "144", "145" ],
+    "comment" : {
+      "undefined" : "Ogni opera racconta una storia"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "21",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "21",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "91",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "range" : "21",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "69",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "27",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "151"
+  }, {
+    "range" : "58",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "primoFilmDI",
+      "undefined" : "primo film di"
+    },
+    "superproperty" : [ "78" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "primo film di una saga cinematografica"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "58",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "terminata",
+      "undefined" : "terminata"
+    },
+    "domain" : "61",
+    "comment" : {
+      "undefined" : "Stato di terminazione di una serie"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto",
+    "inverse" : "11",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "precedeDirettamenteFumetto",
+      "undefined" : "precede direttamente fumetto"
+    },
+    "superproperty" : [ "63" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "fumetto che segue direttamente un altro in una collana"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#firstItemOf",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "firstItemOf",
+      "undefined" : "first item of"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "70",
+    "attributes" : [ "external", "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "primaSerieTVDi",
+      "undefined" : "prima serieTV di"
+    },
+    "superproperty" : [ "75" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "prima serieTV di un 'Universo Seriale'"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#size",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "size",
+      "undefined" : "size"
+    },
+    "domain" : "86",
+    "comment" : {
+      "undefined" : "size - The number of items belonging to a collection"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa",
+    "inverse" : "93",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "direttoDa",
+      "undefined" : "diretto da"
+    },
+    "superproperty" : [ "92" ],
+    "domain" : "58",
+    "comment" : {
+      "undefined" : "Ogni prodotto audiovisivo e' diretto da un regista"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta",
+    "inverse" : "96",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "prodottoAudiovisivoRacconta",
+      "undefined" : "prodotto audiovisivo racconta"
+    },
+    "superproperty" : [ "143" ],
+    "domain" : "58",
+    "comment" : {
+      "undefined" : "un prodotto audiovisivo racconta una o piu' storie"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "18",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "159"
+  }, {
+    "range" : "18",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "61",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/recitaIn",
+    "inverse" : "163",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "recitaIn"
+    },
+    "domain" : "43",
+    "attributes" : [ "external", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "70",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "86",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "range" : "18",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione",
+    "inverse" : "19",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "haProduzione",
+      "undefined" : "ha produzione"
+    },
+    "domain" : "21",
+    "comment" : {
+      "undefined" : "Una Saga Ha una produzione editoriale"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "167"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#hasMember",
+    "inverse" : "113",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl",
+    "range" : "121",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasMember",
+      "en" : "has member"
+    },
+    "domain" : "86",
+    "subproperty" : [ "26" ],
+    "comment" : {
+      "undefined" : "A relation between collections and entities, e.g. 'my collection of saxophones includes an old Adolphe Sax original alto' (i.e. my collection has member an Adolphe Sax alto)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes",
+    "inverse" : "56",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "precedes",
+      "en" : "precedes",
+      "it" : "precede"
+    },
+    "domain" : "15",
+    "subproperty" : [ "105", "68", "101", "63" ],
+    "comment" : {
+      "undefined" : "A relation between entities, expressing a 'sequence' schema. \nE.g. 'year 1999 precedes 2000', 'deciding what coffee to use' precedes 'preparing coffee', 'World War II follows World War I', 'in the Milan to Rome autoroute, Bologna precedes Florence', etc.\nIt can then be used between tasks, processes, time intervals, spatially locate objects, situations, etc. \nSubproperties can be defined in order to distinguish the different uses."
+    },
+    "attributes" : [ "transitive", "external", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "4",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "interpreta",
+      "undefined" : "interpreta"
+    },
+    "domain" : "43",
+    "comment" : {
+      "undefined" : "Ogni attore interpreta un personaggio"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "serieTVDi",
+      "undefined" : "serieTV di"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "61",
+    "subproperty" : [ "74", "127" ],
+    "comment" : {
+      "undefined" : "serieTV di un Universo Seriale"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "20",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
+  }, {
+    "range" : "5",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "172"
+  }, {
+    "range" : "45",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "range" : "18",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "4",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "20",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "176"
+  }, {
+    "range" : "5",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "86",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm",
+    "inverse" : "54",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "precedeFilm",
+      "undefined" : "precede film"
+    },
+    "superproperty" : [ "64" ],
+    "domain" : "55",
+    "subproperty" : [ "67" ],
+    "comment" : {
+      "undefined" : "film che precede un altro in una saga cinematografica"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "18",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#directlyPrecedes",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "directlyPrecedes",
+      "en" : "directly precedes",
+      "it" : "precede direttamente"
+    },
+    "superproperty" : [ "64" ],
+    "domain" : "15",
+    "subproperty" : [ "125" ],
+    "comment" : {
+      "undefined" : "The intransitive precedes relation. For example, Monday directly precedes Tuesday. Directness of precedence depends on the designer conceptualization."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm",
+    "inverse" : "77",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "haUltimoFilm",
+      "undefined" : "ha ultimo film"
+    },
+    "superproperty" : [ "31" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Ogni saga cinematografica inizia con uno specifico film"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa",
+    "inverse" : "170",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "eInterpretatoDa",
+      "undefined" : "interpretato da"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Ogni personaggio e' interpretato da un attore"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "180"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasFirstItem",
+    "inverse" : "114",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "hasFirstItem",
+      "undefined" : "has first item"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "69",
+    "subproperty" : [ "138", "103", "126" ],
+    "comment" : {
+      "undefined" : "first item - The link to the first item of the list"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "dirige",
+      "undefined" : "dirige"
+    },
+    "superproperty" : [ "90" ],
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "Un Regista dirige un prodotto audiovisivo"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "starring",
+      "undefined" : "starring"
+    },
+    "domain" : "58",
+    "comment" : {
+      "undefined" : "Film \"con attore\" nel cast (in inglese, starring)"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "segueFumetto",
+      "undefined" : "segue fumetto"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "12",
+    "subproperty" : [ "11" ],
+    "comment" : {
+      "undefined" : "fumetto che segue un altro in una collana"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#nextItem",
+    "inverse" : "125",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "nextItem",
+      "undefined" : "next item"
+    },
+    "superproperty" : [ "100" ],
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "next item - The link to the next item in a list (ordered collection)"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna",
+    "inverse" : "181",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "disegna",
+      "undefined" : "disegna"
+    },
+    "superproperty" : [ "90" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Un disegnatore disegna un fumetto"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "disegnatoda",
+      "undefined" : "disegnato da"
+    },
+    "superproperty" : [ "92" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "Ogni fumetto e' disegnato da un disegnatore"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "haFilm",
+      "undefined" : "ha film"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Ogni saga cinematografica ha almeno un film"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV",
+    "inverse" : "62",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "precedeDirettamenteSerieTV",
+      "undefined" : "precede direttamente serieTV"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "61",
+    "comment" : {
+      "undefined" : "serieTV che precede direttamente un' altra in un Universo Seriale"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "creataDa",
+      "undefined" : "creataDa"
+    },
+    "domain" : "91",
+    "subproperty" : [ "181", "158" ],
+    "comment" : {
+      "undefined" : "Ogni opera e' creata da un creatore"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#isMemberOf",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl",
+    "range" : "86",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isMemberOf",
+      "en" : "is member of"
+    },
+    "domain" : "121",
+    "subproperty" : [ "35" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta",
+    "inverse" : "97",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "fumettoRacconta",
+      "undefined" : "fumetto racconta"
+    },
+    "superproperty" : [ "143" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "un fumetto puo' raccontare una o piu' storie"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI",
+    "inverse" : "30",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "filmDI",
+      "undefined" : "film di"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "55",
+    "subproperty" : [ "104", "77" ],
+    "comment" : {
+      "undefined" : "film di una saga cinematografica"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "haAntagonista"
+    },
+    "superproperty" : [ "6" ],
+    "domain" : "5",
+    "attributes" : [ "external", "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi",
+    "baseIri" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "primoFumettoDi",
+      "undefined" : "primo fumetto di"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "primo fumetto di una collana"
+    },
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "36"
+  } ]
+}

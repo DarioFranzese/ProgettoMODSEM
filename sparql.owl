@@ -1,0 +1,50 @@
+<!-- SPARQL QUERIES -->
+
+PREFIX Cinecomics: <http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bag: <http://www.ontologydesignpatterns.org/cp/owl/bag.owl#>
+
+<!-- Conta le opere appartengono ad ogni saga -->
+SELECT ?saga (COUNT(?opera) as ?numeroOpere) 
+WHERE {
+  ?saga bag:hasItem ?opera.
+  ?opera rdf:type Cinecomics:Opera.
+} 
+GROUP BY ?saga
+
+<!-- Conta i fumetti disegnati da ogni disegnatore -->
+SELECT ?disegnatore (COUNT((?fumetto)) as ?numeroFumetti) 
+WHERE {
+  ?disegnatore Cinecomics:disegna ?fumetto .
+} 
+GROUP BY ?disegnatore
+
+<!-- Elencare le Opere in cui compare il personaggio di Iron Man-->
+SELECT ?opera 
+WHERE {
+  ?opera Cinecomics:racconta ?storia.
+  ?storia Cinecomics:contiene Cinecomics:personaggio
+  ?personaggio rdfs:label ?nome
+  FILTER regex(?nome, "Capitan America").
+}
+
+<!-- Restituisci il numero di volte che ogni personaggio appare in un' opera -->
+SELECT ?personaggio (COUNT(?opera) as ?numeroApparizioni) 
+WHERE {
+  ?opera Cinecomics:racconta ?storia.
+  ?personaggio Cinecomics:appareIn ?storia.
+}
+group by ?personaggio
+order by desc(?numeroApparizioni)
+
+<!-- Restituisce le coppie di personaggi che compaiono nella stessa storia -->
+SELECT ?personaggio1 ?personaggio2 ?storia
+WHERE {
+  ?opera Cinecomics:racconta ?storia.
+  ?personaggio1 Cinecomics:appareIn ?storia.
+  ?personaggio2 Cinecomics:appareIn ?storia.
+  FILTER (?personaggio1 != ?personaggio2).
+}
+order by ?storia

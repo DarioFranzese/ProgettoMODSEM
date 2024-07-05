@@ -1,0 +1,2790 @@
+[ {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid17"
+    }, {
+      "@id" : "_:genid15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAmericana"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAsiatica"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneEuropea"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#Item"
+    }, {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#Collection"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+    }, {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista"
+  } ]
+}, {
+  "@id" : "http://comicmeta.org/cbo/Comic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://dbpedia.org/resource/Comics"
+  } ]
+}, {
+  "@id" : "http://comicmeta.org/cbo/Story",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "comicmeta:Story"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Comics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Film",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Television_show",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/spar/frbr/core#Work",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "frbr:Work"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera"
+  } ]
+}, {
+  "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#previousItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#directlyPrecedes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "it",
+    "@value" : "Dario Franzese"
+  } ],
+  "http://purl.org/dc/elements/1.1/date" : [ {
+    "@language" : "it",
+    "@value" : "14-02-2024"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "it",
+    "@value" : "Ontologia riguardo il mondo dei Cinefumetti da un punto di vista sia Cinematografico che Fumettistico, evidenziando similitudini e adattamenti delle opere originali trasposte su pellicola."
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Cinecomics' Ontology"
+  }, {
+    "@language" : "it",
+    "@value" : "Ontologia sui cinefumetti"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/vann:preferredNamespacePrefix" : [ {
+    "@value" : "Cinecomics"
+  }, {
+    "@value" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Cinecomics"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Abominio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mostro mutante dalle dimensioni sovraumane"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Abominio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Afghanistan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Stato mediorientale caratterizzato dall' ostilita' bellica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Afghanistan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ambientazione dove si sviluppa parte o tutta la storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ambientazione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Antagonista della storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Antagonista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Centro dei 9 Regni"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Asgard"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore di un prodotto audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Antagonista",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore che interpreta l' antagonista in un prodotto audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attore Antagonista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore_Protagonista",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore che interpreta il protagonista in un prodotto audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attore protagonista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Primo film corale sui vendicatori"
+  }, {
+    "@value" : "The Avengers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Primo fumetto dedicato agli Avengers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Avengers Assembled n1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled_Collana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/AvengersAssembled"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Prima collana di fumetti dedicata ai vendicatori"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Avengers Assembled [Collana]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Supereoe della Marvel con poteri da supersoldato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Capitan America"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Primo film del MCU dedicato a Steve Rodgers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Captain America: The First Avenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_Collana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Prima collana di storie dedicata a Steve Rodgers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Captain America [Collana]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica_n1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Primo numero della nuova storia su Capitan America pubblicato nel 1941"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Captain America n1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CharlieCox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore statunitense classe 1975"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Charlie Cox"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisEvans",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CapitanAmerica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore statunitense classe 1981"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Chris Evans"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ChrisHemsworth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore statunitense classe 1980"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Chris Hemsworth"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Citta dove e' ambientato il racconto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Citta'"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Collana di piu' fumetti"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Collana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Creatore di un prodotto artistico di qualsiasi tipo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Creatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alter-ego di Matt Murdoock"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Daredevil"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Serie netflix dedicata al diavolo di Hell's Kitchen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Daredevil [Serie TV]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/DavidTennant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Killgrave"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore scozzese classe 1971"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "David Tennant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Disegnatore di un fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Disegnatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAmericana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Insieme di film che compongono la prima fase del Marvel Cinematic Universe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MCU: Fase 1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Film rappresentante una storia con personaggi Marvel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fumetto venduto dalla Marvel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fumetto di esordio del personaggio di Hulk scritto da Stan Lee e disegnato da Jack Kirby"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Green Monster n1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster_Collana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Collana che vede l' esordio di Hulk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Green Monster [Collana]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personaggio alter ego di Bruce Banner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hulk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnFavreu"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Secondo film dedicato allo sviluppo del personaggio di Tony Stark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The Iron Man 2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storia dello storico scontro tra Iron Man e Justin Hammer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Iron Man VS Justin Hammer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_Collana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Prima collana dedicata unicamente ad Iron Man"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Iron Man [Collana]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan_n63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Numero 63 della prima serie di fumetti dedicati ad IronMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Iron Man n63"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personaggio alter ego di Tony Stark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Iron Man"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storico disegnatore della Marvel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Jack Kirby"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JeffBridges",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ObediahStane"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore statunitense classe 1960"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Jeff Bridges"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alter ego di Sara Strange"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Jessica Jones"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Collana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Collana di fumetti dedicati a Jessica Jones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Jessica Jones [Collana]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Seconda serie tv netflix dedicata agli eroi Marvel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Jessica Jones [Serie TV]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Primo numero della collana di fumetti dedicati a Jessica Jones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Jessica Jones n1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeJohnston",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/CaptainAmerica:TheFirstAvenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Regista statunitense"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Joe Johnston"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JoeRusso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Avengers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storico regista statunitense dell' MCU"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Joe Russo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnBuscema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_n1"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "John Buscema"
+  }, {
+    "@value" : "Storico disegnatore marvel statunitense"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JohnFavreu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Regista Statunitense di origini Francesi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "John Favreu"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinHammer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronManVSJustinHammer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Multimilionario malvagio che grazie alle sue tecnologie ambisce a conquistare il mondo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Justin Hammer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinRusso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Daredevil_Serie"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Regista marvel dedicato alle serie tv"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Justin Russo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Killgrave",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Conosciuto anche come l' uomo porporta, uomo dai poteri psichici"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Killgrave"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Kingpin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Acerrimo nemico di daredevil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Kingpin"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/KirstenRitter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attrice statunitense"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Kirsten Ritter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LUomoPorpora",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storia dell' uomo porpora a Hell's Kitchen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "L'uomo porpora"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TomHiddleston"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Figlio di odino fratello di Thor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Loki"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Londra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Citta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capitale del Regno Unito"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Londra"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/LouisLeterrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Regista francese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Louis Leterrier"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MarkRuffalo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Hulk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore statunitense classe 1967"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mark Ruffalo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/MatthewVaughn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Regista canadese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Matthew Vaughn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Miniserie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Serie con un sola stagione autoconclusiva"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Miniserie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Nazione dove e' ambientato il racconto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Nazione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capitale dell' omonimo stato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "New York"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ObediahStane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Obediah Stane"
+  }, {
+    "@value" : "Socio traditore di Tony Stark"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Un prodotto in cui viene raccontata una storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Opera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#ListItem"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Terra"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storia sulle origini del gruppo di supereroi."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origini degli Avengers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/NewYork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storia delle origini del diavolo rosso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origini di Daredevil"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storia delle origini del mostro verde"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origini di Hulk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Loki"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Asgard"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storia delle origini del principe di Asgard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origini di Thor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Afghanistan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storia delle origini dell' alter-ego di Tony Stark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origini di Iron Man"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storia delle origini della nascita del Supersoldato americao"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origni di Capitan America"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personaggio della storia raccontata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Personaggio"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Pianeta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pianeta di finzione dove e' ambientata una storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pianeta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Prodotto sottoforma di video"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Prodotto audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tipo di produzione dell' Opera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Produzione"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAmericana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneAsiatica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ProduzioneEuropea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Protagonista della storia raccontata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Protagonista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Scrittore del copione e della trama del Film/Serie Tv"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Regista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regno",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Regno di finzione dove e' ambientata una storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Regno Fantastico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RobertDowneyJr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Iron_Man"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attore Newyorkese classe 1961"
+  }, {
+    "@value" : "Robert Downey Jr"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/RossMarquand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TeschioRosso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore francese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ross Marquand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Russia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Nazione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#List"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Collezione di piu' film con gli stessi protagonisti"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Saga Cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SamRockwell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JustinHammer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore Canadese classe 1969"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sam Rockwell"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ScarlettJohansson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attrice statunitense classe 1985"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Scarlett Johansson"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SerieNetflix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JessicaJones_Serie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Universo seriale Netflix"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Serie Netflix"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Prodotto televisivo con personaggi Marvel suddiviso in episodi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Serie tv"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fodnatore e disegnatore della Marvel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Stan Lee"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/SteveDitko",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/GreenMonster"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storico disegnatore Marvel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Steve Ditko"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Una storia di supereroi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Storia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Storica Collana di fumetti Marvel nata nel 1945"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tales Of Suspence"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesOfSuspence_n69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/JackKirby"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiDaredevil"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fumetto d' esordio del personaggio di Matt Murdock"
+  }, {
+    "@value" : "Tales Of Suspence n69"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TalesofSuspense_39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fumetto del 1963 scritto da Stan Lee dove compare per la prima volta il personaggio di Iron Man"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tales Of Suspence n39"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Terra",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pianeta terra, conosciuto anche come Terra 616"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Terra"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TeschioRosso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OrigniDiCapitanAmerica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alterego del generale nazista Johann Smidth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Teschio Rosso"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_Collana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Collana di fumetti dedicati al Dio del tuono"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The Almighty Thor [Collana]"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheAlmightyThor_n1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/StanLee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Primo numero della storica collana di storie dedicate a Thor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The Almighty Thor n1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIncredibleHulk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiHulk"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Primo film del MCU dedicato alle origini di Bruce Banner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The Incredible Hulk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TheIronMan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fase1"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Origini_di_Iron_Man"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Primo film del MCU con protagonista l' uomo di ferro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The Iron Man"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers"
+  }, {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDiThor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personaggio figlio di Odino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Thor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Thor1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/IronMan2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Primo film dedicato al figlio di Odino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Thor 1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TimRoth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Abominio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore statunitense classe 1959"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tim Roth"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/TomHiddleston",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore inglese classe 1975"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tom Hiddlestone"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Insieme di piu' serie TV ambientate nello stesso \"Universo\" che condividono avvenimenti e/o personaggi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Universo Seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VedovaNera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ScarlettJohansson"
+  } ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/OriginiDegliAvengers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personaggio alterego di Natasha Romanov"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vedova Nera"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/VincentDOnofrio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Kingpin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Attore statunitense classe 1969"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vincent D Onofrio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ambientazioneDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Un' ambientazione e' associata potenzialmente a una o piu' storie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ambientazione di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/antagonizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personaggio che prende il ruolo di antagonista in una storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "antagonizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni personaggio appare in una storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "appare in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni storie contiene dei personaggi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "contienePersonaggio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Un creatore crea un' opera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "crea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni opera e' creata da un creatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "creataDa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Creatore"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/direttoDa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni prodotto audiovisivo e' diretto da un regista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "diretto da"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/dirige",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Un Regista dirige un prodotto audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Regista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "dirige"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Un disegnatore disegna un fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "disegna"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/crea"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/disegnatoda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni fumetto e' disegnato da un disegnatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "disegnato da"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Disegnatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/creataDa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni personaggio e' interpretato da un attore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "interpretato da"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "film di una saga cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "film di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#itemOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "fumetto di una collana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "fumetto di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#itemOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoRacconta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "un fumetto puo' raccontare una o piu' storie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "fumetto racconta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAmbientazione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni storia e' ambientata in uno o piu' luoghi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ambientata a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Ambientazione"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haAntagonista",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Antagonista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFilm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni saga cinematografica ha almeno un film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#hasItem"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haFumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "collana ha almeno un fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#hasItem"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimaSerie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni universo seriale inizia con una specifica serie tv"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha prima serieTV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasFirstItem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFilm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni saga cinematografica inizia con uno specifico film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha primo film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasFirstItem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haPrimoFumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni collana inizia con uno specifico fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha primo fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasFirstItem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProduzione",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Una Saga Ha una produzione editoriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha produzione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haProtagonista",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haSerie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni universo seriale ha almeno una serie TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha serieTV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#hasItem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimaSerieTV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni universo seriale termina con una specifica serie tv"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha ultima serieTV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasLastItem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFilm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni saga cinematografica inizia con uno specifico film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga_Cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha ultimo film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasLastItem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/haUltimoFumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni collana termina con uno specifico fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Collana_Fumettistica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ha ultimo fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/list.owl#hasLastItem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni attore interpreta un personaggio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "interpreta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Personaggio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/numeroStagioni",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Numero di stagioni di una serie tv"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "numero stagioni"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFilm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "film che precede direttamente un altro in una saga cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "precede direttamente film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteFumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "fumetto che segue direttamente un altro in una collana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "precede direttamente fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeDirettamenteSerieTV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "serieTV che precede direttamente un' altra in un Universo Seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "precede direttamente serieTV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFilm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "film che precede un altro in una saga cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "precede film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeFumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "fumetto che precede un altro in una collana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "precede fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/precedeSerieTV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "serie tv che precede un' altra in un universo seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "precede serieTV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#precedes"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primaSerieTVDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "prima serieTV di un 'Universo Seriale'"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "prima serieTV di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFilmDI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "primo film di una saga cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "primo film di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/primoFumettoDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "primo fumetto di una collana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "primo fumetto di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "un prodotto audiovisivo racconta una o piu' storie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "prodotto audiovisivo racconta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/produce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Produzione"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Saga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/protagonizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personaggio che prende il ruolo di protagonista in una storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Protagonista"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "protagonizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/racconta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni opera racconta una storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "racconta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ogni storia viene raccontata in un' opera"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "raccontata in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Opera"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_fumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Una storia puo' essere raccontata in un fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "raccontata in fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Una storia puo' essere messa in scena in un prodotto audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Storia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "raccontata in prodotto audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontataIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/recitaIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/interpreta"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/appareIn"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/raccontata_in_prodotto_audiovisivo"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFilm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "film che segue direttamente un altro in una saga cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "segue direttamente film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteFumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "fumetto che segue direttamente un altro in una Collana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "segue direttamente fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueDirettamenteSerieTV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "serieTV che segue direttamente un' altra in Universo Seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "segue direttamente serieTV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFilm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "film che segue un altro in una saga cinematografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "segue film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Film"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueFumetto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "fumetto che segue un altro in una collana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "segue fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Fumetto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/segueSerieTV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "serie tv che segue un' altra in un universo seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "segue serieTV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/sequence.owl#follows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "serieTV di un Universo Seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "serieTV di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Universo_Seriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.ontologydesignpatterns.org/cp/owl/bag.owl#itemOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/starring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Film \"con attore\" nel cast (in inglese, starring)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Prodotto_Audiovisivo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "starring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Attore"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/prodottoAudiovisivoRacconta"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/contiene"
+    }, {
+      "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/eInterpretatoDa"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/terminata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Stato di terminazione di una serie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/Serie_TV"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "terminata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimaSerieTVDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "ultima 'Serie tv' di un 'Universo Seriale'"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ultima serieTV di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/serieTVDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFilmDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "ultimo film di una 'Saga Cinematografica'"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ultimo film di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/filmDI"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/ultimoFumettoDi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "ultimo fumetto di una collana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ultimo fumetto di"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/fumettoDi"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/dario/ontologies/2024/1/Cinecomics/vann:preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]
